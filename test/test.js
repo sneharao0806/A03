@@ -33,13 +33,5 @@ QUnit.test("Here's a test that should always pass", function (assert) {
     assert.ok(1 <= "3", "1<3 - the first agrument is 'truthy', so we pass!");
 });
 
-QUnit.test('Testing calculateSeatsinRow function with several sets of inputs', function (assert) {
-  assert.equal(App.calculateSeatsinRow(4, 5), 20, 'bonus1-calulate(4,5) return 20');
-  assert.equal(App.calculateSeatsinRow(1000, 1000),0,'bonus2-calculate(500,500)return 0. ' );
-  assert.equal(App.calculateSeatsinRow(-2, -2), 0, ' bonus3-calculate(-2,-2)return 0. ');
-  assert.equal(App.calculateSeatsinRow(2.4, 6.8),0,'bonus4-calculate(2,4,6,8)return 0. ');
-  assert.equal(App.calculateSeatsinRow(),0,'bonus5-calculate(2)return 0');
-  assert.throws(function () { App.calculateSeatsinRow('a', 'b'); }, /The given argument is not a number/, 'bonus6-Passing in a string correctly raises an Error');
-});
 
 
