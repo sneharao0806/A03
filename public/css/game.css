@@ -1,0 +1,115 @@
+* {  
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  display: block;
+}
+
+body {
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+    background:url("pexels.jpeg");
+    background-repeat:no-repeat;
+    background-size:1500px 1500px;
+    
+  }
+
+
+header, footer, aside{
+  background-color: rgba(95, 92, 92, 0.075);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+ 
+  color: #444;
+  padding: 1em;
+}
+
+.section {
+  background-color: #006747;
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 2em;
+  margin: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  /* width: 94%; */
+  /* margin: auto; */
+}
+
+ol, ul {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+li {
+   text-align: left;
+   font-size: 1em;
+}
+
+header {
+  margin-top: 61px;
+}
+.game_Header {
+  background-color:pink;
+  color: #3c0de9;
+}
+h2Transparent{
+  color:transparent;
+  font-size:0;
+}
+
+div#winner-Status {
+  width: 40%;
+  margin: auto;
+  color:orange;
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid orangered;
+  border-radius: 4px;
+}
+.section:hover{
+  background:orchid;
+  ;
+}
+
+.btn-play {
+  background:greenyellow;
+  width: 108px;
+  border: 1px solid rgb(128, 194, 6);
+}
+
+.btn-play:hover{
+  background: paleturquoise;
+}
+
+main.main_section {
+  width: 85%;
+  margin: auto;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li {
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}

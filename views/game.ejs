@@ -1,0 +1,38 @@
+<% include header %>
+<link rel="stylesheet" href="/css/game.css">
+<link rel="stylesheet" type="text/css" href="/css/sneha.css"/>
+<body>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand">Tic Tac Toe</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <h1 class="game_Header">Tic Tac Toe</h1> 
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">   
+          <div id = "winner-Status" class="winner_Status"></div>
+          <main class="main_section">
+            <div class="section" id="upper-left"></div>
+            <div class="section" id="upper-mid"> </div>
+            <div class="section" id="upper-right"> </div>
+  
+            <div class="section" id="center-left"> </div>
+            <div class="section" id="center-mid"> </div>
+            <div class="section" id="center-right"> </div>
+  
+            <div class="section" id="lower-left"> </div>
+            <div class="section" id="lower-mid"> </div>
+            <div class="section" id="lower-right"> </div>
+          </main>
+          <div class="btn_play">
+            <button  class="btn btn-primary btn-play" onclick="play()">RESET</button>
+          </div>
+      </div>
+      </div>  
+    </div>  
+    <script src="/js/game.js"></script>
+<% include footer %>

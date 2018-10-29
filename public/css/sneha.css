@@ -1,0 +1,108 @@
+article{
+	padding-left :24px;
+	font-size: 20px;
+	color: rgb(27, 26, 26);
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+header{
+	font-size: 40px;
+    color : Tomato; 
+    text-align :center;
+
+}
+body{
+	background:url("pexels.jpeg");
+	background-repeat:no-repeat;
+	background-size:1500px 1500px;
+	
+}
+
+img{
+	float:left;
+}
+#intro-section{
+    font-style:italic;
+    font-size: 24px;
+    color: blue;
+	
+}
+#past-section{
+	font-size: 24px;
+	color:brown;
+	font-style:italic;
+	
+}
+#future-section{
+	font-size: 24px;
+	color:yellow;
+	font-style:italic;
+    
+}
+#interst{
+	font-size: 24px;
+	color:red;
+	font-style:italic;
+	
+}
+iframe{
+	width:"560";
+	height:"315";
+	frameborder:"0";
+		  float:right;
+		  allow:"autoplay"encrypted-media"allowfullscreen;
+}
+#para{
+	color: purple;
+	font-style: italic;
+	font-size: 24px;
+	
+}
+.s{
+	font-size: 22px;
+	color: rgb(16, 212, 42);
+	font-style:italic;
+}
+.d{
+	font-size: 22px;
+	color:green;
+	font-style:italic;
+}
+ol li{
+	
+	color:green;
+	font-size: 22px;
+
+}
+.aside-header{
+	font-style: italic;
+	color: blue;
+    font-size:24px;
+}
+footer{
+	font-size:26px;
+	color:red;
+	
+	text-align:center;
+}
